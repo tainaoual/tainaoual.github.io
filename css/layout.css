@@ -1,0 +1,36 @@
+
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+
+    display: grid;
+    grid-template-rows: 150px;
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 90%
+}
+.main{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+
+
+img{
+
+    width: 20%;
+    height:10% ;
+}
+
+
+
