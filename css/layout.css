@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box; 
 }
+nav ul li {
+    display:flex ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-inline-end: ;
+    align-content: center;
+
+
+}
+
+
+
+
 .container {
     display:flex; 
     flex-direction: column; 
@@ -22,17 +36,28 @@
         display:flex ;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 15%;
         margin-top: auto;
         align-content: center;
 
     }
 section{ 
     margin-right: 2%; 
-    margin-left: 10%;  
-    padding: 1rem;
-    width: 40%; 
-    height: 100%; 
-    text-align: left; 
-    margin-bottom: 2%; 
-}
+   /* margin-left: 10%;*/  
+    /*padding: 1rem;*/
+   /* width: 40%; */
+   
+        text-align: left; 
+        margin-bottom: 2%; 
+        padding:5rem ;
+         align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        margin: 0 8px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;}
+        
+        
+        
