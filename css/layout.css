@@ -18,12 +18,13 @@
 
 
 
-    img{
-display: flex;
-
-width:50%;
-margin-top: auto;
-align-content: center;
+    figure{
+        display:flex ;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: auto;
+        align-content: center;
 
     }
 section{ 
