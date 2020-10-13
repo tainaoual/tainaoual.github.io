@@ -49,20 +49,23 @@ nav ul li a:hover{
     }
     
 
+img{
+width: 100%;
 
+}
 
     figure{
         display:flex ;
         margin-left: auto;
         margin-right: auto;
-        width: 15%;
+        width:15%;
         margin-top: auto;
         align-content: center;
 
     }
     section {
-            background-color:goldenrod;
-            color:white;
+            background-color:rgba(218, 165, 32, 0.75);
+            color:black;
     margin-right: 2%; 
         text-align: left; 
         margin-bottom: 2%; 
