@@ -60,10 +60,10 @@ nav ul li a:hover{
         align-content: center;
 
     }
-    section{ 
+    section {
+            background-color:goldenrod;
+            color:white;
     margin-right: 2%; 
-   
-   
         text-align: left; 
         margin-bottom: 2%; 
         padding:5rem ;
@@ -84,4 +84,30 @@ nav ul li a:hover{
 .icon{
     width: 50px;
     height: 50px;
+}
+section img {
+ display:flex ;
+margin-left:auto;
+margin-right: auto;
+widows: 70%;
+margin-top: auto;
+align-content: center;
+}
+
+.Projects .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin: auto;
+}
+
+.Projects:after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.Projects .column img {
+    height: 400px;
+    width: 400px;;
 }

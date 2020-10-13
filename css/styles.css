@@ -26,7 +26,13 @@ text-align: center;
 text-size-adjust: large;
 text-decoration-color: rgba(84, 33, 214, 0.83);
 }
- 
+ /* p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }*/
 h1,h2,h3,h4 {
     text-size-adjust:large ;
 }
@@ -36,3 +42,7 @@ footer{
     
 
 }
+    
+
+
+
